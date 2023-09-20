@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-
+import Card from './components/card.jsx'
 
 import AppCard from './components/AppCard.jsx'
 
