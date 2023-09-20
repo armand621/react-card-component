@@ -1,5 +1,6 @@
 import Card from "./card";
 import txt from "./txt";
+import './card.css'
 
 export default function AppCard(){
 
@@ -10,9 +11,12 @@ export default function AppCard(){
     })
 
     return(
-        <>
+        <div className="main-container">
             {cards}
+
+        </div>
+            
         
-        </>
+        
     )
 }
