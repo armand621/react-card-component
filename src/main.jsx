@@ -1,7 +1,6 @@
-import AppCard from '/components/AppCard.jsx'
+import { ReactDOM } from "react"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <AppCard />
-  </React.StrictMode>,
+  <h1>Hello World</h1>
+
 )
